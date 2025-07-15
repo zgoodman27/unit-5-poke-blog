@@ -35,6 +35,7 @@ app.get("/pokemon/:id", (req, res) => {
   }
 });
 
+//set up route for new pokemon
 app.post("/pokemon/new", (req, res) => {
   const newPokemon = req.body;
   try {
